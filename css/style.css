@@ -1,0 +1,43 @@
+
+body{
+    display: block;
+    background-color: black;
+ text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25%;
+   
+
+}
+input{
+  
+
+font-size: 30px;
+border:solid 4px;
+border-color: white;
+background-color: black;
+color: aliceblue;
+padding: 10px;
+margin:30px;
+
+
+
+}
+input:hover{
+
+    background-color:white;
+    color: black;
+   
+  
+}
+#b2:hover{
+
+    transform: scale(1.5);
+}
+#b3:hover{
+transform: translate(40px);
+transition: 1s;
+
+}
+
+
