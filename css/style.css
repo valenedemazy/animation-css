@@ -1,14 +1,17 @@
 
+/*positionement bouton*/
 body{
     display: block;
     background-color: black;
- text-align: center;
+  text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top:25%;
    
 
 }
+
+/*mise en page bouton*/
 input{
   
 
@@ -23,6 +26,8 @@ margin:30px;
 
 
 }
+/*couleur bouton*/
+
 input:hover{
 
     background-color:white;
@@ -30,10 +35,14 @@ input:hover{
    
   
 }
+
+/* effet de zoom au passage de la souris*/
 #b2:hover{
 
     transform: scale(1.5);
 }
+
+/* slide au passage de la souris*/
 #b3:hover{
 transform: translate(40px);
 transition: 1s;
